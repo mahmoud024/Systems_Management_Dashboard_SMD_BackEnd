@@ -1,0 +1,10 @@
+curl -X POST 127.0.0.1:5000/servers -H "Content-Type: application/json" -d "{\"name\":\"Read a book\"}"
+PUT
+
+curl -X DELETE http://127.0.0.1:5000/servers/1
+
+
+curl http://127.0.0.1:5000/servers/1
+
+
+curl http://127.0.0.1:5000/servers
